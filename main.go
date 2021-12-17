@@ -7,5 +7,5 @@ import (
 
 func main() {
 	var db sqlx.DB
-	fmt.Printf("%T\n", db)
+	fmt.Printf("var type: %T\n", db)
 }
